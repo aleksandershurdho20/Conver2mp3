@@ -2,3 +2,13 @@
   background: #fff !important;
   color: #000 !important;
 }
+
+.wrapper {
+  margin-top: 30px;
+}
+.container {
+}
+h1,
+h2 {
+  display: none !important;
+}

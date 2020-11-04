@@ -13,6 +13,7 @@ export default function Content() {
         console.log(id,'id')
     },[videoUrl])
 
+    
     const useStyles = makeStyles((theme) => ({
         root: {
           flexGrow: 1,
@@ -31,7 +32,7 @@ export default function Content() {
                  <div className="wrapper">
                     <form onSubmit={(e)=>e.preventDefault()}>
                     <TextField id="outlined-basic"
-                      style={{width:'80%',marginLeft:'25px'}}
+                      style={{width:'80%',marginLeft:'25px',position:'relative',bottom:'90px'}}
                        label="Paste video url here" variant="outlined"
                        value={videoUrl}
                        onChange={(e)=>setVideoUrl(e.target.value)}

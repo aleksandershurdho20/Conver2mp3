@@ -39,7 +39,7 @@ export default function Content() {
 
                     </form>
                  </div>
-                 <iframe src={'https://www.yt-download.org/api/button/mp3/' + id} style={{width:'100%',height:'100px',border:'none'}}  scrolling="no" ></iframe>
+                 <iframe src={'https://www.yt-download.org/api/button/mp3/' + id} style={videoUrl.length == 0 ? {display:'none'} : {width:'100%',height:'100px',border:'none' }}  scrolling="no" ></iframe>
                     
 
              </Grid>
